@@ -1,0 +1,17 @@
+<div class="container mt-5 mb-5">
+
+    <div class="row">
+
+        <div class="col-lg-4 " *ngFor="let fd of furnitureData">
+            <div class="furniture1 mt-1 mb-1"> <h1>{{fd.furniture}}</h1></div>
+            <div class="furnitureBox mt-1 mb-1"> 
+                <img src="{{fd.furnitureImage}}"/>
+                <h1>{{fd.furnitureName}}</h1>
+                <p>{{fd.furnitureDetails}}</p>
+                <p>{{fd.furniturePrice | currency:'INR'}}</p>
+                <br/>
+                <a class="buybtn" [routerLink]="['/cart',fd.id]">Add to cart &nbsp;<i class="bi bi-bag-fill"></i></a>      
+            </div>
+        </div>
+    </div>
+</div>

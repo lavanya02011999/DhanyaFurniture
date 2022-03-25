@@ -1,0 +1,88 @@
+.banner{
+    background-image: url('../../../assets/img/bannerimg.jpg');
+    height:1250px;
+    background-position: center top;
+    background-size: cover;
+    
+}
+
+.content{
+    top:10%;
+    left:38%;
+    position:absolute;
+}
+
+.content h1{
+    color:black;
+    font-size:30px;
+    font-weight: bold;
+    
+}
+.content a{
+    text-decoration: none;
+    background-color:white;
+    color:var(--primary-color);
+    padding:10px 10px;
+    border-radius:5px;
+    
+}
+.content a:hover{
+    background-color: var(--primary-color);
+    color:white;
+}
+
+.stepBox{
+   background-color: black; 
+   padding:20px 20px;
+   border-radius:5px; 
+   text-align:center;
+}
+.stepBox h1{
+    font-size:50px;
+    font-weight:bold;
+    color:var(--primary-color);
+}
+
+.stepBox p{
+    font-size: 20px;
+    font-style: italic;
+    color:white;
+}
+
+.highlight{
+    color:var(--primary-color);
+    font-weight: bold;
+    text-decoration:underline;
+    font-style:italic;
+    text-decoration: underline;
+}
+
+.furnitureBox{
+    padding:10px 10px;
+}
+
+.furnitureBox img{
+    width:100%;
+    height:250px;
+    object-fit: cover;
+    border-radius:5px; 
+}
+
+.furnitureBox h1{
+    font-size:18px;
+    margin-top:20px;
+    font-weight: bold;
+}
+
+.viewerbtn{
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color:black;
+    padding:10px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    
+}
+.text-center h1{
+    font-size: 25px;
+}

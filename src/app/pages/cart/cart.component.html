@@ -1,0 +1,16 @@
+<div class="container mt-5 mb-5">
+
+    <div class="row">
+
+        <div class="col-lg-4 " *ngIf="furnitureData">
+            <div class="furnitureBox mt-1 mb-1"> 
+                <img src="{{furnitureData[0].furnitureImage}}"/>
+                <h1>{{furnitureData[0].furnitureName}}</h1>
+                <p>{{furnitureData[0].furnitureDetails}}</p>
+                <p>{{furnitureData[0].furniturePrice | currency:'INR'}}</p>
+                <br/>
+                <a class="buybtn" [routerLink]="['/menupage',furnitureData.id]">Buy now &nbsp;<i class="bi bi-bag-fill"></i></a>      
+            </div>
+        </div>
+    </div>
+</div>
